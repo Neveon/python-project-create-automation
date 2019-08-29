@@ -13,7 +13,7 @@ Creates a local git repo with README.md as intial commit and creates/adds a remo
 4) Edit `script.config`, `directory` is where projects will be created and `editor` is the editor in your PATH to open the newly created project (If no editor is in your path, your project will still be created but will not be opened in your editor)
 
 5) Add linux folder to $PATH
-`PATH=$PATH:~/path/to/linuxFolder`
+`PATH=$PATH:~/path/to/linux`
 
    `echo $PATH` to see what's in your PATH
 
