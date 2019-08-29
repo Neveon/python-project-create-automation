@@ -8,7 +8,7 @@ from getpass import getpass
 
 # config parser set up
 config = ConfigParser()
-configFilePath = str(os.getcwd()) + '/enter/files/here/to/script.config'
+configFilePath = str(os.path.dirname(os.path.abspath(__file__))) + '/script.config'
 config.read(configFilePath)
 
 # global project variables
