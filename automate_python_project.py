@@ -8,8 +8,7 @@ from getpass import getpass
 
 # config parser set up
 config = ConfigParser()
-# os.getcwd() = /home/dragon
-configFilePath = str(os.getcwd()) + '/Desktop/Python/projects/ProjectAutomation/script.config'
+configFilePath = str(os.getcwd()) + '/enter/files/here/to/script.config'
 config.read(configFilePath)
 
 # global project variables
